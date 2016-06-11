@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.cicbd.udc2.service.impl.HostMetricServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.583 sec

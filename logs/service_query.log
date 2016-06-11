@@ -1,0 +1,585 @@
+2016-06-03 12:30:02  [ main:65 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 12:30:02  [ main:83 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5f159092, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c69203, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6c9c035a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76a0416a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1326d2fe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@59e62b84]
+2016-06-03 12:30:02  [ main:198 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 12:30:02  [ main:429 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 12:30:02  [ main:508 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@1495c8c2: startup date [Fri Jun 03 12:30:02 CST 2016]; root of context hierarchy
+2016-06-03 12:30:02  [ main:630 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 12:30:03  [ main:1130 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 12:30:03  [ main:1257 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1495c8c2: startup date [Fri Jun 03 12:30:02 CST 2016]; root of context hierarchy
+2016-06-03 12:30:03  [ main:1309 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1495c8c2: startup date [Fri Jun 03 12:30:02 CST 2016]; root of context hierarchy
+2016-06-03 12:30:04  [ Thread-2:2323 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@1495c8c2: startup date [Fri Jun 03 12:30:02 CST 2016]; root of context hierarchy
+2016-06-03 12:31:13  [ main:70 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 12:31:13  [ main:86 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@15e1e22b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20c78046, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@9b6847a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2db36a91, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e196d07, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@574516d4]
+2016-06-03 12:31:13  [ main:189 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 12:31:13  [ main:432 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 12:31:13  [ main:495 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@4d6c5525: startup date [Fri Jun 03 12:31:13 CST 2016]; root of context hierarchy
+2016-06-03 12:31:13  [ main:617 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 12:31:14  [ main:1136 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 12:31:14  [ main:1263 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4d6c5525: startup date [Fri Jun 03 12:31:13 CST 2016]; root of context hierarchy
+2016-06-03 12:31:14  [ main:1307 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4d6c5525: startup date [Fri Jun 03 12:31:13 CST 2016]; root of context hierarchy
+2016-06-03 12:31:14  [ main:1754 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 12:31:14  [ main:1754 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47ed052c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19eeb098, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@58bd875, org.springframework.test.context.support.DirtiesContextTestExecutionListener@202fec2b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a3a0b8f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48cceef1]
+2016-06-03 12:31:16  [ Thread-2:3341 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@4d6c5525: startup date [Fri Jun 03 12:31:13 CST 2016]; root of context hierarchy
+2016-06-03 12:46:09  [ main:60 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 12:46:09  [ main:92 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@31059033, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@643e1d69, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29fd0be9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@24190388, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6636e83b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ec8adea]
+2016-06-03 12:46:09  [ main:222 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 12:46:09  [ main:468 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 12:46:10  [ main:538 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:46:10 CST 2016]; root of context hierarchy
+2016-06-03 12:46:10  [ main:675 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 12:46:10  [ main:1186 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 12:46:10  [ main:1314 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:46:10 CST 2016]; root of context hierarchy
+2016-06-03 12:46:10  [ main:1376 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:46:10 CST 2016]; root of context hierarchy
+2016-06-03 12:46:11  [ main:1529 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 12:46:11  [ main:1529 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 12:46:11  [ main:1547 ] - [ INFO ]  FrameworkServlet '': initialization completed in 18 ms
+2016-06-03 12:46:11  [ Thread-2:2444 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:46:10 CST 2016]; root of context hierarchy
+2016-06-03 12:51:15  [ main:61 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 12:51:16  [ main:79 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@31059033, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@643e1d69, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29fd0be9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@24190388, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6636e83b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ec8adea]
+2016-06-03 12:51:16  [ main:206 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 12:51:16  [ main:456 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 12:51:16  [ main:534 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:51:16 CST 2016]; root of context hierarchy
+2016-06-03 12:51:16  [ main:675 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 12:51:17  [ main:1182 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 12:51:17  [ main:1307 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:51:16 CST 2016]; root of context hierarchy
+2016-06-03 12:51:17  [ main:1363 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:51:16 CST 2016]; root of context hierarchy
+2016-06-03 12:51:17  [ main:1507 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 12:51:17  [ main:1507 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 12:51:17  [ main:1539 ] - [ INFO ]  FrameworkServlet '': initialization completed in 32 ms
+2016-06-03 12:51:18  [ Thread-2:2377 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 12:51:16 CST 2016]; root of context hierarchy
+2016-06-03 12:52:46  [ main:66 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 12:52:46  [ main:83 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@643e1d69, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29fd0be9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24190388, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6636e83b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ec8adea, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@911ed70]
+2016-06-03 12:52:46  [ main:207 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 12:52:47  [ main:450 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 12:52:47  [ main:520 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 12:52:47 CST 2016]; root of context hierarchy
+2016-06-03 12:52:47  [ main:659 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 12:52:47  [ main:1169 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 12:52:48  [ main:1301 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 12:52:47 CST 2016]; root of context hierarchy
+2016-06-03 12:52:48  [ main:1355 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 12:52:47 CST 2016]; root of context hierarchy
+2016-06-03 12:52:48  [ main:1496 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 12:52:48  [ main:1496 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 12:52:48  [ main:1526 ] - [ INFO ]  FrameworkServlet '': initialization completed in 30 ms
+2016-06-03 12:52:49  [ Thread-2:3020 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 12:52:47 CST 2016]; root of context hierarchy
+2016-06-03 12:54:21  [ main:58 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 12:54:21  [ main:76 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@aee83a8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31059033, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@643e1d69, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29fd0be9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24190388, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6636e83b]
+2016-06-03 12:54:21  [ main:201 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 12:54:21  [ main:443 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 12:54:21  [ main:514 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 12:54:21 CST 2016]; root of context hierarchy
+2016-06-03 12:54:21  [ main:649 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 12:54:22  [ main:1145 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 12:54:22  [ main:1278 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 12:54:21 CST 2016]; root of context hierarchy
+2016-06-03 12:54:22  [ main:1329 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 12:54:21 CST 2016]; root of context hierarchy
+2016-06-03 12:54:22  [ main:1474 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 12:54:22  [ main:1475 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 12:54:22  [ main:1501 ] - [ INFO ]  FrameworkServlet '': initialization completed in 26 ms
+2016-06-03 12:54:23  [ Thread-2:2539 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 12:54:21 CST 2016]; root of context hierarchy
+2016-06-03 13:16:22  [ main:61 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:16:22  [ main:77 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@aee83a8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31059033, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@643e1d69, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29fd0be9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24190388, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6636e83b]
+2016-06-03 13:16:22  [ main:218 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:16:22  [ main:466 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:16:22  [ main:537 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:16:22 CST 2016]; root of context hierarchy
+2016-06-03 13:16:23  [ main:666 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:16:23  [ main:1153 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:16:23  [ main:1271 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:16:22 CST 2016]; root of context hierarchy
+2016-06-03 13:16:23  [ main:1329 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:16:22 CST 2016]; root of context hierarchy
+2016-06-03 13:16:23  [ main:1469 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:16:23  [ main:1470 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:16:23  [ main:1496 ] - [ INFO ]  FrameworkServlet '': initialization completed in 26 ms
+2016-06-03 13:16:24  [ Thread-2:2428 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:16:22 CST 2016]; root of context hierarchy
+2016-06-03 13:16:57  [ main:69 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:16:57  [ main:91 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@d1131dc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@63e06937, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@221bcd1b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f36b91b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@11b2c43e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f71cb85]
+2016-06-03 13:16:57  [ main:188 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:16:57  [ main:470 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:16:57  [ main:542 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@10ef3b8b: startup date [Fri Jun 03 13:16:57 CST 2016]; root of context hierarchy
+2016-06-03 13:16:57  [ main:663 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:16:58  [ main:1183 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:16:58  [ main:1307 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@10ef3b8b: startup date [Fri Jun 03 13:16:57 CST 2016]; root of context hierarchy
+2016-06-03 13:16:58  [ main:1350 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@10ef3b8b: startup date [Fri Jun 03 13:16:57 CST 2016]; root of context hierarchy
+2016-06-03 13:16:59  [ main:2771 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:16:59  [ main:2771 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b3aecf9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@799bfe39, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@704f8e8e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7718463c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5aab4a39, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@239612b0]
+2016-06-03 13:16:59  [ main:2790 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:16:59  [ main:2857 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:16:59  [ main:2907 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5f594a5f: startup date [Fri Jun 03 13:16:59 CST 2016]; root of context hierarchy
+2016-06-03 13:17:00  [ main:2932 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:17:00  [ main:3033 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:17:00  [ main:3086 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5f594a5f: startup date [Fri Jun 03 13:16:59 CST 2016]; root of context hierarchy
+2016-06-03 13:17:00  [ main:3108 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5f594a5f: startup date [Fri Jun 03 13:16:59 CST 2016]; root of context hierarchy
+2016-06-03 13:17:00  [ main:3219 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:17:00  [ main:3219 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:17:00  [ main:3239 ] - [ INFO ]  FrameworkServlet '': initialization completed in 19 ms
+2016-06-03 13:17:01  [ main:4500 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:17:01  [ main:4500 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b285262, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2438d6e4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@fa42550, org.springframework.test.context.support.DirtiesContextTestExecutionListener@618daf35, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ce9f29c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4336ee98]
+2016-06-03 13:17:03  [ Thread-4:6296 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@5f594a5f: startup date [Fri Jun 03 13:16:59 CST 2016]; root of context hierarchy
+2016-06-03 13:17:03  [ Thread-2:6296 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@10ef3b8b: startup date [Fri Jun 03 13:16:57 CST 2016]; root of context hierarchy
+2016-06-03 13:18:01  [ main:60 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:18:02  [ main:81 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@aee83a8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31059033, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@643e1d69, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29fd0be9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24190388, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6636e83b]
+2016-06-03 13:18:02  [ main:205 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:18:02  [ main:449 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:18:02  [ main:523 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:18:02 CST 2016]; root of context hierarchy
+2016-06-03 13:18:02  [ main:652 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:18:03  [ main:1150 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:18:03  [ main:1277 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:18:02 CST 2016]; root of context hierarchy
+2016-06-03 13:18:03  [ main:1329 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:18:02 CST 2016]; root of context hierarchy
+2016-06-03 13:18:03  [ main:1469 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:18:03  [ main:1469 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:18:03  [ main:1496 ] - [ INFO ]  FrameworkServlet '': initialization completed in 27 ms
+2016-06-03 13:18:04  [ Thread-2:2350 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:18:02 CST 2016]; root of context hierarchy
+2016-06-03 13:22:16  [ main:59 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:22:16  [ main:74 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@aee83a8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31059033, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@643e1d69, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29fd0be9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24190388, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6636e83b]
+2016-06-03 13:22:16  [ main:211 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:22:17  [ main:455 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:22:17  [ main:526 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:22:17 CST 2016]; root of context hierarchy
+2016-06-03 13:22:17  [ main:663 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:22:17  [ main:1173 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:22:17  [ main:1297 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:22:17 CST 2016]; root of context hierarchy
+2016-06-03 13:22:18  [ main:1349 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:22:17 CST 2016]; root of context hierarchy
+2016-06-03 13:22:18  [ main:1493 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:22:18  [ main:1493 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:22:18  [ main:1518 ] - [ INFO ]  FrameworkServlet '': initialization completed in 25 ms
+2016-06-03 13:22:18  [ Thread-2:1565 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:22:17 CST 2016]; root of context hierarchy
+2016-06-03 13:23:04  [ main:60 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:23:04  [ main:78 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@31059033, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@643e1d69, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29fd0be9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@24190388, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6636e83b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ec8adea]
+2016-06-03 13:23:04  [ main:216 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:23:04  [ main:466 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:23:05  [ main:545 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:23:05 CST 2016]; root of context hierarchy
+2016-06-03 13:23:05  [ main:676 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:23:05  [ main:1178 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:23:05  [ main:1309 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:23:05 CST 2016]; root of context hierarchy
+2016-06-03 13:23:05  [ main:1365 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:23:05 CST 2016]; root of context hierarchy
+2016-06-03 13:23:05  [ main:1519 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:23:05  [ main:1519 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:23:06  [ main:1535 ] - [ INFO ]  FrameworkServlet '': initialization completed in 16 ms
+2016-06-03 13:23:06  [ Thread-2:1580 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:23:05 CST 2016]; root of context hierarchy
+2016-06-03 13:25:37  [ main:66 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:25:37  [ main:85 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@31059033, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@643e1d69, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29fd0be9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@24190388, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6636e83b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ec8adea]
+2016-06-03 13:25:37  [ main:222 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:25:37  [ main:475 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:25:37  [ main:547 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5870501: startup date [Fri Jun 03 13:25:37 CST 2016]; root of context hierarchy
+2016-06-03 13:25:37  [ main:688 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:25:38  [ main:1194 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:25:38  [ main:1296 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/JsonProcessingException
+2016-06-03 13:25:38  [ main:1301 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@31059033] to prepare test instance [org.cicbd.udc2.controller.HostControllerTest@519974bd]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:183)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:123)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/JsonProcessingException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:133)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 25 more
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/JsonProcessingException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2615)
+	at java.lang.Class.getDeclaredMethods(Class.java:1860)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:609)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:521)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:507)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:241)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1069)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1042)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:299)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:382)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProcessingException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 57 more
+2016-06-03 13:28:43  [ main:65 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:28:43  [ main:83 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@aee83a8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31059033, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@643e1d69, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29fd0be9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24190388, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6636e83b]
+2016-06-03 13:28:43  [ main:220 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:28:43  [ main:475 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:28:43  [ main:548 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8ba6621: startup date [Fri Jun 03 13:28:43 CST 2016]; root of context hierarchy
+2016-06-03 13:28:43  [ main:688 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:28:44  [ main:1208 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:28:44  [ main:1320 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/databind/JavaType
+2016-06-03 13:28:44  [ main:1327 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@aee83a8] to prepare test instance [org.cicbd.udc2.controller.HostControllerTest@38f164ae]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:183)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:123)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/databind/JavaType
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:133)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 25 more
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/databind/JavaType
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2615)
+	at java.lang.Class.getDeclaredMethods(Class.java:1860)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:609)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:521)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:534)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:507)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:241)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1069)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1042)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:299)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:382)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.JavaType
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 58 more
+2016-06-03 13:33:01  [ main:59 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:33:01  [ main:75 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@29fd0be9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@24190388, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6636e83b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1ec8adea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@911ed70, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@77fb58b6]
+2016-06-03 13:33:01  [ main:207 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:33:01  [ main:473 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:33:01  [ main:547 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@ace10d9: startup date [Fri Jun 03 13:33:01 CST 2016]; root of context hierarchy
+2016-06-03 13:33:01  [ main:683 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:33:02  [ main:1199 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:33:02  [ main:1529 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@ace10d9: startup date [Fri Jun 03 13:33:01 CST 2016]; root of context hierarchy
+2016-06-03 13:33:02  [ main:1587 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@ace10d9: startup date [Fri Jun 03 13:33:01 CST 2016]; root of context hierarchy
+2016-06-03 13:33:02  [ main:1733 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:33:02  [ main:1733 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:33:02  [ main:1751 ] - [ INFO ]  FrameworkServlet '': initialization completed in 18 ms
+2016-06-03 13:33:02  [ Thread-2:1824 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@ace10d9: startup date [Fri Jun 03 13:33:01 CST 2016]; root of context hierarchy
+2016-06-03 13:33:33  [ main:62 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:33:33  [ main:79 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@643e1d69, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29fd0be9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24190388, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6636e83b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ec8adea, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@911ed70]
+2016-06-03 13:33:33  [ main:212 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:33:33  [ main:480 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:33:33  [ main:552 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:33:33 CST 2016]; root of context hierarchy
+2016-06-03 13:33:33  [ main:680 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:33:34  [ main:1204 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:33:34  [ main:1519 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:33:33 CST 2016]; root of context hierarchy
+2016-06-03 13:33:34  [ main:1576 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:33:33 CST 2016]; root of context hierarchy
+2016-06-03 13:33:34  [ main:1723 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:33:34  [ main:1723 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:33:34  [ main:1747 ] - [ INFO ]  FrameworkServlet '': initialization completed in 24 ms
+2016-06-03 13:33:44  [ Thread-2:11020 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@6359877c: startup date [Fri Jun 03 13:33:33 CST 2016]; root of context hierarchy
+2016-06-03 13:34:57  [ main:65 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:34:57  [ main:83 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@24190388, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6636e83b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1ec8adea, org.springframework.test.context.support.DirtiesContextTestExecutionListener@911ed70, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77fb58b6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@167d5244]
+2016-06-03 13:34:57  [ main:217 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:34:57  [ main:483 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:34:57  [ main:563 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:34:57 CST 2016]; root of context hierarchy
+2016-06-03 13:34:58  [ main:695 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:34:58  [ main:1234 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:34:58  [ main:1548 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:34:57 CST 2016]; root of context hierarchy
+2016-06-03 13:34:58  [ main:1605 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:34:57 CST 2016]; root of context hierarchy
+2016-06-03 13:34:59  [ main:1762 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:34:59  [ main:1762 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:34:59  [ main:1782 ] - [ INFO ]  FrameworkServlet '': initialization completed in 20 ms
+2016-06-03 13:35:00  [ Thread-2:3048 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:34:57 CST 2016]; root of context hierarchy
+2016-06-03 13:54:52  [ main:60 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:54:52  [ main:77 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@24190388, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6636e83b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1ec8adea, org.springframework.test.context.support.DirtiesContextTestExecutionListener@911ed70, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77fb58b6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@167d5244]
+2016-06-03 13:54:52  [ main:223 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:54:52  [ main:491 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:54:52  [ main:563 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:54:52 CST 2016]; root of context hierarchy
+2016-06-03 13:54:52  [ main:698 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:54:53  [ main:1228 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:54:53  [ main:1544 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:54:52 CST 2016]; root of context hierarchy
+2016-06-03 13:54:53  [ main:1600 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:54:52 CST 2016]; root of context hierarchy
+2016-06-03 13:54:53  [ main:1751 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:54:53  [ main:1752 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:54:53  [ main:1769 ] - [ INFO ]  FrameworkServlet '': initialization completed in 17 ms
+2016-06-03 13:54:54  [ Thread-2:2745 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@5eb41c19: startup date [Fri Jun 03 13:54:52 CST 2016]; root of context hierarchy
+2016-06-03 13:55:04  [ main:68 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:55:04  [ main:89 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4f36b91b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11b2c43e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f71cb85, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17e8c1ec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32137937, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1c7b2390]
+2016-06-03 13:55:04  [ main:198 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:55:04  [ main:475 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:55:04  [ main:545 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@53f39660: startup date [Fri Jun 03 13:55:04 CST 2016]; root of context hierarchy
+2016-06-03 13:55:05  [ main:677 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:55:05  [ main:1188 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:55:05  [ main:1495 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@53f39660: startup date [Fri Jun 03 13:55:04 CST 2016]; root of context hierarchy
+2016-06-03 13:55:05  [ main:1548 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@53f39660: startup date [Fri Jun 03 13:55:04 CST 2016]; root of context hierarchy
+2016-06-03 13:55:06  [ main:2017 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:55:06  [ main:2017 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5f1e3ff6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3af96043, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4a1eecf4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3456ad30, org.springframework.test.context.transaction.TransactionalTestExecutionListener@26844528, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@35d858d9]
+2016-06-03 13:55:06  [ main:2030 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 13:55:06  [ main:2080 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 13:55:06  [ main:2132 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ad4a242: startup date [Fri Jun 03 13:55:06 CST 2016]; root of context hierarchy
+2016-06-03 13:55:06  [ main:2168 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 13:55:06  [ main:2225 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 13:55:06  [ main:2279 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ad4a242: startup date [Fri Jun 03 13:55:06 CST 2016]; root of context hierarchy
+2016-06-03 13:55:06  [ main:2304 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ad4a242: startup date [Fri Jun 03 13:55:06 CST 2016]; root of context hierarchy
+2016-06-03 13:55:06  [ main:2408 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 13:55:06  [ main:2409 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 13:55:06  [ main:2425 ] - [ INFO ]  FrameworkServlet '': initialization completed in 16 ms
+2016-06-03 13:55:07  [ main:3367 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 13:55:07  [ main:3367 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71ba266a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7430337a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@883ca2e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44e9660, org.springframework.test.context.transaction.TransactionalTestExecutionListener@43727ad5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10de588b]
+2016-06-03 13:55:09  [ Thread-4:4959 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@5ad4a242: startup date [Fri Jun 03 13:55:06 CST 2016]; root of context hierarchy
+2016-06-03 13:55:09  [ Thread-2:4960 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@53f39660: startup date [Fri Jun 03 13:55:04 CST 2016]; root of context hierarchy
+2016-06-03 15:07:50  [ main:62 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 15:07:50  [ main:79 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2c7acb6f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31c1fb39, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@365474b4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62b9f149, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d902242, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61b92a37]
+2016-06-03 15:07:50  [ main:199 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 15:07:50  [ main:452 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 15:07:50  [ main:519 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3173175: startup date [Fri Jun 03 15:07:50 CST 2016]; root of context hierarchy
+2016-06-03 15:07:50  [ main:651 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 15:07:50  [ main:706 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hostController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.cicbd.udc2.service.HostMetricService org.cicbd.udc2.controller.HostController.hostMetricService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.cicbd.udc2.service.HostMetricService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2016-06-03 15:07:50  [ main:708 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@2c7acb6f] to prepare test instance [org.cicbd.udc2.controller.HostControllerTest@67c1f01c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:183)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:123)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hostController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.cicbd.udc2.service.HostMetricService org.cicbd.udc2.controller.HostController.hostMetricService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.cicbd.udc2.service.HostMetricService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:133)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 25 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.cicbd.udc2.service.HostMetricService org.cicbd.udc2.controller.HostController.hostMetricService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.cicbd.udc2.service.HostMetricService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 41 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.cicbd.udc2.service.HostMetricService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1373)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1119)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 43 more
+2016-06-03 16:32:43  [ main:63 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 16:32:43  [ main:80 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c71b273, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c7acb6f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@31c1fb39, org.springframework.test.context.support.DirtiesContextTestExecutionListener@365474b4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62b9f149, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d902242]
+2016-06-03 16:32:43  [ main:208 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 16:32:43  [ main:472 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 16:32:43  [ main:545 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:32:43 CST 2016]; root of context hierarchy
+2016-06-03 16:32:43  [ main:684 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 16:32:44  [ main:1196 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 16:32:44  [ main:1818 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:32:43 CST 2016]; root of context hierarchy
+2016-06-03 16:32:44  [ main:1876 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:32:43 CST 2016]; root of context hierarchy
+2016-06-03 16:32:45  [ main:1946 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 16:32:45  [ main:2043 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 16:32:45  [ main:2043 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 16:32:45  [ main:2063 ] - [ INFO ]  FrameworkServlet '': initialization completed in 19 ms
+2016-06-03 16:32:45  [ Thread-2:2787 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:32:43 CST 2016]; root of context hierarchy
+2016-06-03 16:37:03  [ main:69 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 16:37:03  [ main:87 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c71b273, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c7acb6f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@31c1fb39, org.springframework.test.context.support.DirtiesContextTestExecutionListener@365474b4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62b9f149, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d902242]
+2016-06-03 16:37:03  [ main:219 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 16:37:03  [ main:472 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 16:37:03  [ main:543 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:37:03 CST 2016]; root of context hierarchy
+2016-06-03 16:37:03  [ main:676 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 16:37:04  [ main:1197 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 16:37:04  [ main:1524 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:37:03 CST 2016]; root of context hierarchy
+2016-06-03 16:37:04  [ main:1576 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:37:03 CST 2016]; root of context hierarchy
+2016-06-03 16:37:04  [ main:1643 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 16:37:04  [ main:1739 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 16:37:04  [ main:1739 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 16:37:04  [ main:1758 ] - [ INFO ]  FrameworkServlet '': initialization completed in 19 ms
+2016-06-03 16:37:04  [ Thread-2:1814 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:37:03 CST 2016]; root of context hierarchy
+2016-06-03 16:40:04  [ main:66 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 16:40:04  [ main:84 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2ccf47c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5c71b273, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2c7acb6f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31c1fb39, org.springframework.test.context.transaction.TransactionalTestExecutionListener@365474b4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62b9f149]
+2016-06-03 16:40:04  [ main:209 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 16:40:04  [ main:464 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 16:40:04  [ main:535 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2c5be151: startup date [Fri Jun 03 16:40:04 CST 2016]; root of context hierarchy
+2016-06-03 16:40:04  [ main:685 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 16:40:05  [ main:1177 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 16:40:05  [ main:1497 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2c5be151: startup date [Fri Jun 03 16:40:04 CST 2016]; root of context hierarchy
+2016-06-03 16:40:05  [ main:1550 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2c5be151: startup date [Fri Jun 03 16:40:04 CST 2016]; root of context hierarchy
+2016-06-03 16:40:05  [ main:1618 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 16:40:06  [ main:1719 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 16:40:06  [ main:1720 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 16:40:06  [ main:1739 ] - [ INFO ]  FrameworkServlet '': initialization completed in 19 ms
+2016-06-03 16:40:06  [ Thread-2:1798 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@2c5be151: startup date [Fri Jun 03 16:40:04 CST 2016]; root of context hierarchy
+2016-06-03 16:42:15  [ main:63 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 16:42:15  [ main:82 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2c7acb6f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31c1fb39, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@365474b4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62b9f149, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d902242, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61b92a37]
+2016-06-03 16:42:15  [ main:209 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 16:42:15  [ main:465 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 16:42:15  [ main:539 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3173175: startup date [Fri Jun 03 16:42:15 CST 2016]; root of context hierarchy
+2016-06-03 16:42:16  [ main:680 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 16:42:16  [ main:1200 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 16:42:16  [ main:1571 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3173175: startup date [Fri Jun 03 16:42:15 CST 2016]; root of context hierarchy
+2016-06-03 16:42:16  [ main:1637 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3173175: startup date [Fri Jun 03 16:42:15 CST 2016]; root of context hierarchy
+2016-06-03 16:42:17  [ main:1807 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 16:42:17  [ main:1906 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 16:42:17  [ main:1906 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 16:42:17  [ main:1928 ] - [ INFO ]  FrameworkServlet '': initialization completed in 22 ms
+2016-06-03 16:42:17  [ Thread-2:1983 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@3173175: startup date [Fri Jun 03 16:42:15 CST 2016]; root of context hierarchy
+2016-06-03 16:47:28  [ main:60 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 16:47:28  [ main:76 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c71b273, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c7acb6f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@31c1fb39, org.springframework.test.context.support.DirtiesContextTestExecutionListener@365474b4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62b9f149, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d902242]
+2016-06-03 16:47:28  [ main:202 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 16:47:28  [ main:448 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 16:47:28  [ main:515 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:47:28 CST 2016]; root of context hierarchy
+2016-06-03 16:47:28  [ main:645 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 16:47:29  [ main:1147 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 16:47:29  [ main:1464 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:47:28 CST 2016]; root of context hierarchy
+2016-06-03 16:47:29  [ main:1517 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:47:28 CST 2016]; root of context hierarchy
+2016-06-03 16:47:29  [ main:1594 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 16:47:29  [ main:1689 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 16:47:29  [ main:1689 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 16:47:29  [ main:1706 ] - [ INFO ]  FrameworkServlet '': initialization completed in 17 ms
+2016-06-03 16:47:29  [ Thread-2:1772 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@4425a397: startup date [Fri Jun 03 16:47:28 CST 2016]; root of context hierarchy
+2016-06-03 16:48:16  [ main:61 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 16:48:16  [ main:78 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@365474b4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@62b9f149, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1d902242, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61b92a37, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4382b300, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@39b5e7a0]
+2016-06-03 16:48:17  [ main:200 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 16:48:17  [ main:453 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 16:48:17  [ main:528 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@52402386: startup date [Fri Jun 03 16:48:17 CST 2016]; root of context hierarchy
+2016-06-03 16:48:17  [ main:663 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 16:48:18  [ main:1207 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 16:48:18  [ main:1530 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@52402386: startup date [Fri Jun 03 16:48:17 CST 2016]; root of context hierarchy
+2016-06-03 16:48:18  [ main:1588 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@52402386: startup date [Fri Jun 03 16:48:17 CST 2016]; root of context hierarchy
+2016-06-03 16:48:18  [ main:1668 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 16:48:18  [ main:1776 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 16:48:18  [ main:1776 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 16:48:18  [ main:1797 ] - [ INFO ]  FrameworkServlet '': initialization completed in 21 ms
+2016-06-03 16:48:18  [ Thread-2:1853 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@52402386: startup date [Fri Jun 03 16:48:17 CST 2016]; root of context hierarchy
+2016-06-03 16:54:57  [ main:61 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 16:54:57  [ main:79 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@167d5244, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7da3f9e4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@186b282d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@231aaee1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2ccf47c8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c71b273]
+2016-06-03 16:54:57  [ main:206 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 16:54:58  [ main:470 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 16:54:58  [ main:543 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@ec99b58: startup date [Fri Jun 03 16:54:58 CST 2016]; root of context hierarchy
+2016-06-03 16:54:58  [ main:679 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 16:54:58  [ main:1191 ] - [ INFO ]  Mapped "{[/host/metric],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData()
+2016-06-03 16:54:59  [ main:1512 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@ec99b58: startup date [Fri Jun 03 16:54:58 CST 2016]; root of context hierarchy
+2016-06-03 16:54:59  [ main:1563 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@ec99b58: startup date [Fri Jun 03 16:54:58 CST 2016]; root of context hierarchy
+2016-06-03 16:54:59  [ main:1639 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 16:54:59  [ main:1738 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 16:54:59  [ main:1738 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 16:54:59  [ main:1756 ] - [ INFO ]  FrameworkServlet '': initialization completed in 18 ms
+2016-06-03 16:55:00  [ Thread-2:3179 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@ec99b58: startup date [Fri Jun 03 16:54:58 CST 2016]; root of context hierarchy
+2016-06-03 17:09:12  [ main:60 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 17:09:12  [ main:76 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ec8adea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@911ed70, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@77fb58b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@167d5244, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7da3f9e4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@186b282d]
+2016-06-03 17:09:13  [ main:205 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 17:09:13  [ main:459 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 17:09:13  [ main:526 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f4721c7: startup date [Fri Jun 03 17:09:13 CST 2016]; root of context hierarchy
+2016-06-03 17:09:13  [ main:660 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 17:09:13  [ main:1150 ] - [ INFO ]  Mapped "{[/metric/{hostname}/{metricName}],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData(java.lang.String,java.lang.String,long,long)
+2016-06-03 17:09:14  [ main:1472 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@f4721c7: startup date [Fri Jun 03 17:09:13 CST 2016]; root of context hierarchy
+2016-06-03 17:09:14  [ main:1524 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@f4721c7: startup date [Fri Jun 03 17:09:13 CST 2016]; root of context hierarchy
+2016-06-03 17:09:14  [ main:1600 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 17:09:14  [ main:1696 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 17:09:14  [ main:1696 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 17:09:14  [ main:1714 ] - [ INFO ]  FrameworkServlet '': initialization completed in 18 ms
+2016-06-03 17:09:14  [ main:1739 ] - [ WARN ]  No mapping found for HTTP request with URI [/ganglia.cloudserver/cpu_idle] in DispatcherServlet with name ''
+2016-06-03 17:09:14  [ Thread-2:1749 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@f4721c7: startup date [Fri Jun 03 17:09:13 CST 2016]; root of context hierarchy
+2016-06-03 17:14:08  [ main:61 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-03 17:14:08  [ main:77 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@77fb58b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@167d5244, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7da3f9e4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@186b282d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@231aaee1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ccf47c8]
+2016-06-03 17:14:09  [ main:207 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2016-06-03 17:14:09  [ main:466 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2016-06-03 17:14:09  [ main:538 ] - [ INFO ]  Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2dfa5885: startup date [Fri Jun 03 17:14:09 CST 2016]; root of context hierarchy
+2016-06-03 17:14:09  [ main:673 ] - [ INFO ]  Loading properties file from class path resource [mongo.properties]
+2016-06-03 17:14:09  [ main:1168 ] - [ INFO ]  Mapped "{[/metric/{hostname}/{metricName}],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.cicbd.udc2.controller.HostController.findMetricData(java.lang.String,java.lang.String,long,long)
+2016-06-03 17:14:10  [ main:1475 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2dfa5885: startup date [Fri Jun 03 17:14:09 CST 2016]; root of context hierarchy
+2016-06-03 17:14:10  [ main:1534 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2dfa5885: startup date [Fri Jun 03 17:14:09 CST 2016]; root of context hierarchy
+2016-06-03 17:14:10  [ main:1614 ] - [ INFO ]  Mapped URL path [/HostMetricService.json] onto handler '/HostMetricService.json'
+2016-06-03 17:14:10  [ main:1715 ] - [ INFO ]  Initializing Spring FrameworkServlet ''
+2016-06-03 17:14:10  [ main:1715 ] - [ INFO ]  FrameworkServlet '': initialization started
+2016-06-03 17:14:10  [ main:1733 ] - [ INFO ]  FrameworkServlet '': initialization completed in 18 ms
+2016-06-03 17:14:11  [ Thread-2:3164 ] - [ INFO ]  Closing org.springframework.web.context.support.GenericWebApplicationContext@2dfa5885: startup date [Fri Jun 03 17:14:09 CST 2016]; root of context hierarchy
