@@ -1,7 +1,6 @@
 package org.cicbd.udc2.helper;
 
 import java.io.IOException;
-
 import org.cicbd.udc2.helper.SSH2Manager.SSH2Client;
 import org.junit.After;
 import org.junit.Before;
@@ -13,7 +12,7 @@ public class SSH2ManagerTest {
 	
 	@Before
 	public void login() throws IOException{
-		client = SSH2Manager.connect("192.168.1.113", "serveradmin", "serveradmin");
+		client = SSH2Manager.connect("192.168.32.128", "serveradmin", "serveradmin");
 	}
 
 	@Test
@@ -39,4 +38,5 @@ public class SSH2ManagerTest {
 	public void disConnect(){
 		client.disConnect();
 	}
+	
 }

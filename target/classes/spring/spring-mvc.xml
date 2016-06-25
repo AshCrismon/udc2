@@ -17,7 +17,7 @@
     http://www.springframework.org/schema/aop/spring-aop.xsd">
 
 	<!-- ============================【  配置spring要扫描的包 】========================= -->
-	<context:component-scan base-package="org.cicbd.udc2.controller,org.cicbd.udc2.service.impl"></context:component-scan>
+	<context:component-scan base-package="org.cicbd.udc2.controller,org.cicbd.udc2.service.impl,org.cicbd.udc2.repository"></context:component-scan>
 
 	<!-- ========================【  使@Controller生效 】====================== -->
 	<mvc:annotation-driven>
@@ -36,10 +36,5 @@
 		<property name="prefix" value="" />
 		<property name="suffix" value="" />
 	</bean>
-	
-	<bean name="/HostMetricService.json" class="com.googlecode.jsonrpc4j.spring.JsonServiceExporter">
-        <property name="service" ref="hostMetricServiceImpl"/>
-        <property name="serviceInterface" value="org.cicbd.udc2.service.HostMetricService"/>
-    </bean>
 	
 </beans>

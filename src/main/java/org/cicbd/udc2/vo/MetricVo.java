@@ -2,14 +2,15 @@ package org.cicbd.udc2.vo;
 
 public class MetricVo {
 
-	private Long timestamp;
+	private Long clock;
 	private Double value;
 	
-	public Long getTimestamp() {
-		return timestamp;
+	
+	public Long getClock() {
+		return clock;
 	}
-	public void setTimestamp(Long timestamp) {
-		this.timestamp = timestamp;
+	public void setClock(Long clock) {
+		this.clock = clock;
 	}
 	public Double getValue() {
 		return value;
@@ -19,7 +20,7 @@ public class MetricVo {
 	}
 	@Override
 	public String toString() {
-		return "MetricVo [timestamp=" + timestamp + ", value=" + value + "]";
+		return "MetricVo [clock=" + clock + ", value=" + value + "]";
 	}
 	
 }

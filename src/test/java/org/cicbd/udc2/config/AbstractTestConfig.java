@@ -1,5 +1,7 @@
 package org.cicbd.udc2.config;
 
+import java.util.Iterator;
+
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -12,7 +14,18 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 				})
 public class AbstractTestConfig {
 
-	public void print(Object obj){
-		System.out.println(obj);
+	public void print(String remark){
+		System.out.println(";;;;;;;;;;;;;;;;;;;;;;;;" + remark + ";;;;;;;;;;;;;;;;;;;;;;;;");
+	}
+	
+	public void print(Object result){
+		System.out.println(result);
+	}
+	
+	public void print(Iterable<?> itr){
+		Iterator<?> it = itr.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next().toString());
+		}
 	}
 }

@@ -1,27 +1,27 @@
 package org.cicbd.udc2.service;
 
-import java.util.List;
+import java.util.Map;
 
-public interface MetricService<T> {
+public interface MetricService {
 
 	/**
-	 * fetch the metric data from the specified collection according to the query string 
-	 * such as "{metric: 'cpu_aidle', clock: {$gte: beginTime, $lte: endTime}}"
-	 * @param collectionName
-	 * @param query
+	 * Fetch the specified metric data, the data format is just like below:
+	 *{
+	 * 		cid: "clustername/hostname"
+	 * 		metric: {
+	 * 			"name": "cpu_idle",
+	 * 			"title": "",
+	 * 			"desc": "",
+	 * 			"group": "",
+	 * 			"series": {clock: value, ...},
+	 * 		}
+	 * }
+	 * @param mid metric id
+	 * @param beginTime
+	 * @param endTime
 	 * @return
 	 */
-	List<T> findMetricData(String collectionName, String query);
+	public Map<String, Object> findMetric(String mid, long beginTime, long endTime);
 	
-	/**
-	 * fetch the metric data from the specified collection according to the query string 
-	 * such as "{metric: 'cpu_aidle', clock: {$gte: beginTime, $lte: endTime}}", and
-	 * return the specified fields
-	 * @param collectionName
-	 * @param query
-	 * @param fields
-	 * @return
-	 */
-	List<T> findMetricData(String collectionName, String query, String fields);
-
+	public Map<String, Object> findMetric(String cid, String metricName, long beginTime, long endTime);
 }

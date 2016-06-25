@@ -2,8 +2,7 @@ package org.cicbd.udc2.controller;
 
 import java.util.Map;
 
-import org.cicbd.udc2.service.HostMetricService;
-import org.cicbd.udc2.vo.MetricVo;
+import org.cicbd.udc2.service.MetricService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,16 +11,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/metric")
-public class HostController {
+public class MetricController {
 	
 	@Autowired
-	private HostMetricService<MetricVo> hostMetricService;
+	private MetricService metricService;
 	
-	@RequestMapping(value = "/{hostname}/{metricName}", method = RequestMethod.GET)
+	@RequestMapping(value = "/{metricName}", method = RequestMethod.GET)
 	public Map<String, Object> findMetricData(
-			@PathVariable String hostname, 
 			@PathVariable String metricName, 
-			long beginTime, long endTime){
-		return hostMetricService.findMetricData(hostname, metricName, beginTime, endTime);
+			String cid, 
+			long beginTime, 
+			long endTime){
+		return metricService.findMetric(cid, metricName, beginTime, endTime);
 	}
 }

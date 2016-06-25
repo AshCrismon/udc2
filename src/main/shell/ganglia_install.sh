@@ -65,14 +65,14 @@ init_gmond_config(){
 
 prepare(){
 	echo "starting to extract ganglia.tar.gz..."
-	tar -xzf ganglia.tar.gz
+	tar -xzf ganglia-3.7.1.tar.gz
 	if [ $? -gt 0 ] 
 		then 
 		echo "decompression error !"
 		exit 0
 	fi
 	echo "decompression completed, starting to install ganglia $1 component..."
-	cd ganglia
+	cd ganglia-3.7.1
 }
 
 install(){

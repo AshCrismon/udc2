@@ -8,6 +8,7 @@ import time
 import json
 import zlib
 import base64
+import argparse
 try:
     import xml.etree.cElementTree as cET
 except ImportError:
@@ -56,15 +57,16 @@ def retrievedata(addr=None, formatter='json'):
     :return:
     """
     addr = ('localhost', 8651) if addr is None else addr
-    client = None
     data = ''
     try:
         client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client.connect(addr)
     except socket.gaierror, e:
-        print 'Unavailable host or port. Error code: ' + str(e[0]) + ', error message: ' + e[1]
+        sys.stderr.write('Unavailable host or port. Error code: ' + str(e[0]) + ', error message: ' + e[1] + '.')
+        sys.exit(1)
     except socket.error, e:
-        print 'Failed to create socket. Error code: ' + str(e[0]) + ', error message: ' + e[1]
+        sys.stderr.write('Failed to create socket. Error code: ' + str(e[0]) + ', error message: ' + e[1] + '.')
+        sys.exit(1)
     while True:
         buf = client.recv(1024)
         if len(buf) == 0:
@@ -82,6 +84,13 @@ def retrievedata(addr=None, formatter='json'):
     return ''
 
 
+SERVER = 'cicbd.jabber.org'
+PORT = 5222
+SINKER = 'sinker@' + SERVER  # sinker account : sinker@cicbd.jabber.org
+ACCOUNT = socket.gethostname() + '@' + SERVER
+DEFAULT_PASSWORD = '000000'
+
+
 class Transmitter:
     """
     Transmit the data collected from ganglia-gmetad node to a sink node by a XMPP server,
@@ -90,28 +99,41 @@ class Transmitter:
         the source node's default account is : hostname@localhost,
         data is collected once per second and transmited from `hostname@localhost` to `udc2@localhost`.
     """
-    __ACCOUNT = socket.gethostname() + '@localhost'
-    __PASSWORD = '000000'
-    __TO = 'udc2@localhost'
-
-    def __init__(self, server_addr=('localhost', 5222)):
-        self.__jid = xmpp.protocol.JID(Transmitter.__ACCOUNT)
+    def __init__(self, frm=None, to=None):
+        frm = ACCOUNT if frm is None else frm
+        to = SINKER if to is None else frm
+        self.__to = to
+        self.__jid = xmpp.protocol.JID(frm)
         self.__client = xmpp.Client(self.__jid.getDomain(), debug=[])
-        self.__client.connect(server=server_addr)
+        self.__client.connect()
         if self.__client.connected:
-            print 'connect to xmpp server %s successfully' % self.__jid.getDomain()
+            sys.stdout.write('Connect to xmpp server %s successfully.' % self.__jid.getDomain())
         else:
-            print 'cannot connect to xmpp server %s' % self.__jid.getDomain()
-            sys.exit()
-        auth = self.__client.auth(self.__jid.getNode(), Transmitter.__PASSWORD)
-        if auth:
-            print 'authentication passed'
+            sys.stderr.write('Cannot connect to xmpp server %s.' % self.__jid.getDomain())
+            sys.exit(1)
+
+        self.ensure_account_exist()
+        self.login()
+
+    def ensure_account_exist(self):
+        if xmpp.features.register(self.__client, self.__jid.getDomain(),
+                                  {'username': self.__jid.getNode(), 'password': DEFAULT_PASSWORD}):
+            sys.stdout.write("Successfully register user: %s!\n" % self.__jid.getNode())
         else:
-            print 'authentication failed for token(%s, %s)' % (self.__jid.getNode(), Transmitter.__PASSWORD)
+            sys.stderr.write("Error while registering! User %s already exists or other errors.\n"
+                             % self.__jid.getNode())
+
+    def login(self):
+        authres = self.__client.auth(self.__jid.getNode(), DEFAULT_PASSWORD)
+        if authres:
+            sys.stdout.write('Authentication passed.')
+        else:
+            sys.stderr.write('Unable to authenticate - check your login account(%s, %s).'
+                             % (self.__jid.getNode(), DEFAULT_PASSWORD))
         self.__client.sendInitPresence()
 
     def transmit(self, data):
-        self.__client.send(xmpp.protocol.Message(Transmitter.__TO, data))
+        self.__client.send(xmpp.protocol.Message(self.__to, data))
 
 
 class GmetadDataClear(set):
@@ -122,6 +144,12 @@ class GmetadDataClear(set):
         super(GmetadDataClear, self).__init__()
 
     def dataclear(self, xml_str):
+        """
+        If the reported time of a host is duplicate, just remove the part from the data collected,
+        If not, add the oid which represent a tuple like `(clustername/hostname, reported_time)` to a set.
+        @:param xml_str
+        @:return
+        """
         root = cET.fromstring(xml_str)
         for grid_node in root.findall('GRID'):
             for cluster_node in grid_node.findall('CLUSTER'):
@@ -144,6 +172,12 @@ class GmondDataClear(set):
         super(GmondDataClear, self).__init__()
 
     def dataclear(self, xml_str):
+        """
+        If the reported time of a host is duplicate, just remove the part from the data collected,
+        If not, add the oid which represent a tuple like `(clustername/hostname, reported_time)` to a set.
+        @:param xml_str
+        @:return
+        """
         root = cET.fromstring(xml_str)
         for cluster_node in root.findall('CLUSTER'):
             for host_node in cluster_node.findall('HOST'):
@@ -159,7 +193,7 @@ class GmondDataClear(set):
 
 def compress(string, method=zlib):
     """
-    Compress the data and encode them with base64
+    Compress the data and encode them with base64.
     :param string:
     :param method:
     :return:
@@ -170,7 +204,7 @@ def compress(string, method=zlib):
 
 def decompress(data, method=zlib):
     """
-    Decompress the data and deencode them with base64
+    Decompress the data and deencode them with base64.
     :param data:
     :param method:
     :return:
@@ -181,21 +215,56 @@ def decompress(data, method=zlib):
 INTERVAL = 1
 
 
-def start():
-    dc = GmondDataClear()
-    transmitter = Transmitter(('192.168.1.113', 5222))
+def start(source=('gmetad', ('localhost', 8651)), trans=None, debug=False):
+    if source[0] == 'gmetad':
+        dc = GmetadDataClear()
+    else:
+        dc = GmondDataClear()
+
+    transmitter = Transmitter(trans[0], trans[1])
+
     while True:
         # 1. retrieve primitive xml data
-        data_xml = retrievedata(('192.168.1.32', 8649), 'xml')
+        data = retrievedata(source[1], 'xml')     # type: xml_str
         # 2. data clean and format
-        data_cleared = dc.dataclear(data_xml)
-        data_dict = XMLStrToDict(data_cleared)
-        data_json = json.dumps(data_dict)
+        data = dc.dataclear(data)                 # type: xml_str
+        data = XMLStrToDict(data)                 # type: dict
+        data = json.dumps(data)                   # type: json_str
+        if debug:
+            sys.stdout.write(data)
         # 3. data compression
-        data = compress(data_json, zlib)
+        data = compress(data, zlib)               # base64_str
         # 4. data transmission
         transmitter.transmit(data)
         time.sleep(INTERVAL)
 
 if __name__ == '__main__':
-    start()
+    """
+    The data is collected from `gmetad [ localhost:8651 ] ` by default
+    and then transmitted out from a client to another client,
+    the source client's default account is 'hostname@cicbd.jabber.org',
+    the sinker client's default account is 'sinker@cicbd.jabber.org'.
+    """
+    parser = argparse.ArgumentParser()
+    note = "The data is transmited out by a xmpp client, " \
+           "the client's default account is `hostname@cicbd.jabber.org`, " \
+           "you can specify the client's account."
+    parser.add_argument('--frm', nargs='?', help=note)
+    note = "The data is sent to a sinker client, " \
+           "you can specify the client's account such as 'sinker@cicbd.jabber.org'."
+    parser.add_argument('--to', nargs='?', help=note)
+
+    note = "Specify the data source such as 'gmetad' or 'gmond'."
+    parser.add_argument('--source', nargs='?', default='gmetad', help=note)
+    note = "Specify the address of the data source such as 'localhost:8651' for gmetad or 'localhost:8649' for gmond."
+    parser.add_argument('--addr', nargs='?', default='localhost:8651', help=note)
+
+    note = "If you want to print data collected to stdout, set the debug=1."
+    parser.add_argument('--debug', nargs='?', type=int, default=0, help=note)
+
+    args = parser.parse_args()
+
+    srcip = args.addr.split(':')[0]
+    srcport = int(args.addr.split(':')[1])
+    start((args.source, (srcip, srcport)), (args.frm, args.to), args.debug == 1)
+    # start(('gmond', ('192.168.1.32', 8649)), (args.frm, args.to))
